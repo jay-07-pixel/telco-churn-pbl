@@ -1,0 +1,12 @@
+{
+  "dataset": "IBM Telco Customer Churn",
+  "source": "https://github.com/IBM/telco-customer-churn-on-icp4d",
+  "problem": "Binary classification \u2014 predict customer churn",
+  "rows": 7043,
+  "best_model": "gradient_boosting",
+  "test_roc_auc": 0.8431760055800978,
+  "test_f1": 0.5891238670694864,
+  "figures_dir": "C:\\Users\\jayjo\\OneDrive\\Desktop\\SPSS_Capstone\\figures",
+  "models_dir": "C:\\Users\\jayjo\\OneDrive\\Desktop\\SPSS_Capstone\\models",
+  "outputs_dir": "C:\\Users\\jayjo\\OneDrive\\Desktop\\SPSS_Capstone\\outputs"
+}

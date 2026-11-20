@@ -1,0 +1,14 @@
+{
+  "raw_rows": 7043,
+  "clean_rows": 7043,
+  "raw_cols": 21,
+  "clean_cols": 20,
+  "duplicate_rows_removed": 0,
+  "total_charges_blank_fixed": 11,
+  "missing_after_clean": {},
+  "churn_rate": 0.2653698707936959,
+  "churn_counts": {
+    "0": 5174,
+    "1": 1869
+  }
+}

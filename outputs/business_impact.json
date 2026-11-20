@@ -1,0 +1,10 @@
+{
+  "threshold": 0.5,
+  "customers_flagged": 288,
+  "true_churners_flagged": 195,
+  "false_alarms": 93,
+  "est_customers_saved": 68.25,
+  "est_annual_revenue_retained": 53039.82612523073,
+  "campaign_cost": 7200.0,
+  "est_net_annual_value": 45839.82612523073
+}

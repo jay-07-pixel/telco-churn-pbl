@@ -1,0 +1,38 @@
+{
+  "tenure": {
+    "q1": 9.0,
+    "q3": 55.0,
+    "iqr": 46.0,
+    "lower": -60.0,
+    "upper": 124.0,
+    "outlier_count": 0,
+    "outlier_pct": 0.0
+  },
+  "MonthlyCharges": {
+    "q1": 35.5,
+    "q3": 89.85,
+    "iqr": 54.349999999999994,
+    "lower": -46.02499999999999,
+    "upper": 171.375,
+    "outlier_count": 0,
+    "outlier_pct": 0.0
+  },
+  "TotalCharges": {
+    "q1": 398.55,
+    "q3": 3786.6,
+    "iqr": 3388.0499999999997,
+    "lower": -4683.525,
+    "upper": 8868.675,
+    "outlier_count": 0,
+    "outlier_pct": 0.0
+  },
+  "AvgChargesPerMonth": {
+    "q1": 35.93515625,
+    "q3": 90.17415797317437,
+    "iqr": 54.239001723174376,
+    "lower": -45.42334633476157,
+    "upper": 171.53266055793594,
+    "outlier_count": 0,
+    "outlier_pct": 0.0
+  }
+}

@@ -1,0 +1,27 @@
+column,type,description
+customerID,ID,Unique customer identifier (dropped before modeling to avoid leakage)
+gender,categorical,Customer gender
+SeniorCitizen,binary,"1 if senior citizen, else 0"
+Partner,categorical,Whether customer has a partner
+Dependents,categorical,Whether customer has dependents
+tenure,numeric,Months with the company
+PhoneService,categorical,Has phone service
+MultipleLines,categorical,Multiple phone lines status
+InternetService,categorical,DSL / Fiber optic / No
+OnlineSecurity,categorical,Online security add-on
+OnlineBackup,categorical,Online backup add-on
+DeviceProtection,categorical,Device protection add-on
+TechSupport,categorical,Tech support add-on
+StreamingTV,categorical,Streaming TV add-on
+StreamingMovies,categorical,Streaming movies add-on
+Contract,categorical,Month-to-month / One year / Two year
+PaperlessBilling,categorical,Paperless billing flag
+PaymentMethod,categorical,Payment method
+MonthlyCharges,numeric,Current monthly bill amount
+TotalCharges,numeric,Total amount charged to date
+Churn,target,"1 = churned, 0 = retained"
+AvgChargesPerMonth,engineered,TotalCharges / tenure
+TenureGroup,engineered,Binned tenure groups
+HasStreamingBundle,engineered,Both streaming TV and movies
+AddonCount,engineered,Count of security/support add-ons
+IsAutoPay,engineered,Automatic payment method flag
